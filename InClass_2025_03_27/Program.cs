@@ -1,4 +1,5 @@
-﻿//Bidhya Sangroula
+﻿//Bidhya Sangroula 
+//Ayah Faour
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,14 @@ namespace InClass_2025_03_27
             mySpring.Place = "Nepal";
             Console.WriteLine("Places to visit for spring: " + mySpring.Place);
 
+            Console.WriteLine("Ayah Faour");
+            Spring mySpring1 = new Spring();
+            mySpring1.Place = "Hawaii";
+            Console.WriteLine("Good vacation spot of the spring:" + mySpring1.Place);
+
+
 
         }
+
     }
 }
